@@ -1,9 +1,22 @@
+
+
+
+
+
 def using_push(array, string)
   array.push(string)
 end
 
 def using_unshift(array)
   array.unshift
+end
+
+def using_pop(array)
+  array.pop
+end
+
+def using_pop_with_args(array)
+  array.pop
 end
 
 def shift_with_args(array)
