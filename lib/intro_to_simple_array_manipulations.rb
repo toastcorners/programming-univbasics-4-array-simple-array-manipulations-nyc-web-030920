@@ -12,7 +12,9 @@ end
 
 def using_pop_with_args(array)
   a = array.pop(2)
-  puts 
+  b = array
+  puts "#{a}"
+  puts "#{b}"
 end
 
 def using_shift(array)
