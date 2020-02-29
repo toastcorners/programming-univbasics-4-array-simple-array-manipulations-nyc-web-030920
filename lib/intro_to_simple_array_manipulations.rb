@@ -1,5 +1,3 @@
-
-
 def using_push(array, string)
   array.push(string)
 end
@@ -12,8 +10,8 @@ def using_pop(array)
   array.pop
 end
 
-def using_pop_with_args(array, arg)
-  array.pop(arg)
+def using_pop_with_args(array)
+  array.pop(2)
 end
 
 def using_shift(array)
@@ -45,5 +43,5 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, integer)
-  array.delete(integer)
+  array.delete_at(integer)
 end
